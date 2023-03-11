@@ -49,15 +49,15 @@ echo -e "  10)Exit"
 echo -ne "${GREEN}\nSelect Operation : ${ENDCOLOR}" ;read n
 
 case $n in
-  1) /etc/rezoth-ssh/UserManager.sh;;
-  2) /etc/rezoth-ssh/ListUsers.sh;;
-  3) /etc/rezoth-ssh/ChangeUser.sh;;
-  4) /etc/rezoth-ssh/DelUser.sh;;
-  5) /etc/rezoth-ssh/ChangePorts.sh;;
-  6) /etc/rezoth-ssh/Banner.sh;;
+  1) /etc/MAFIA-ssh/UserManager.sh;;
+  2) /etc/MAFIA-ssh/ListUsers.sh;;
+  3) /etc/MAFIA-ssh/ChangeUser.sh;;
+  4) /etc/MAFIA-ssh/DelUser.sh;;
+  5) /etc/MAFIA-ssh/ChangePorts.sh;;
+  6) /etc/MAFIA-ssh/Banner.sh;;
   7) clear && screenfetch -p || echo -e "${RED}Screenfetch not installed. please install${ENDCOLOR}"; echo -e "\nPress Enter to return back to the menu";read;menu;;  
-  8) clear && python3 /etc/rezoth-ssh/speedtest-cli || echo -e "${RED}Python3 or speedtest-cli not installed. please install${ENDCOLOR}"; echo -e "\nPress Enter to return back to the menu";read;menu;;
-  9) /etc/rezoth-ssh/RemoveScript.sh;;
+  8) clear && python3 /etc/MAFIA-ssh/speedtest-cli || echo -e "${RED}Python3 or speedtest-cli not installed. please install${ENDCOLOR}"; echo -e "\nPress Enter to return back to the menu";read;menu;;
+  9) /etc/MAFIA-ssh/RemoveScript.sh;;
   10) clear;exit;;
   *) echo -e "${RED}\nInvalid Option. Press Enter to return back to the menu${ENDCOLOR}";read && menu;;
 esac
