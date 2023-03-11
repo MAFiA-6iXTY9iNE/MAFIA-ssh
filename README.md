@@ -1,4 +1,4 @@
-<center><h1>MΛFiΛ VPS SCRIPT> </h1></center>
+<center><h1>MΛFiΛ VPS SCRIPT </h1></center>
 
 ### Installation
 
