@@ -244,7 +244,7 @@ clear
 
 #Adding the default user
 echo -ne "${GREEN}Enter the default username : "; read username
-echo -ne "Enter password (please use a strong password) : "; read password; break;;
+echo -ne "Enter password (please use a strong password) : "; read password
 echo -ne "Enter No. of Days till expiration : ";read nod
 exd=$(date +%F  -d "$nod days")
 useradd -e $exd -M -N -s /bin/false $username && echo "$username:$password" | chpasswd &&
