@@ -59,7 +59,7 @@ sed -i 's/#Banner none/Banner \/etc\/banner/' /etc/ssh/sshd_config
 mv /etc/default/dropbear /etc/default/dropbear.backup
 cat << EOF > /etc/default/dropbear
 NO_START=0
-DROPBEAR_PORT=7200
+DROPBEAR_PORT=7600
 DROPBEAR_EXTRA_ARGS="-p 110"
 DROPBEAR_BANNER="/etc/banner"
 DROPBEAR_RSAKEY="/etc/dropbear/dropbear_rsa_host_key"
@@ -95,9 +95,11 @@ client = no
 sslVersion = all
 socket = l:TCP_NODELAY=1
 socket = r:TCP_NODELAY=1
+
 [dropbear]
-accept = 7200
+accept = 7600
 connect = 110
+
 [openssh]
 accept = 443
 connect = 22
