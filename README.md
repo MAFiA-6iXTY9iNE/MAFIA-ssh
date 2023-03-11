@@ -3,7 +3,7 @@
 ### Installation
 
 ``` 
- sudo wget https://raw.githubusercontent.com/MAFiA-6iXTY9iNE/MAFIAzoth-ssh/main/ssh.sh && sudo chmod +x ssh.sh  && sudo ./ssh.sh 
+ sudo wget https://raw.githubusercontent.com/MAFiA-6iXTY9iNE/MAFIA-ssh/main/ssh.sh && sudo chmod +x ssh.sh  && sudo ./ssh.sh 
  ```
 
 
